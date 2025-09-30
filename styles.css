@@ -1,0 +1,130 @@
+/* ===== Brand Colors ===== */
+:root {
+  --brand-green: #3b7a57;
+  --brand-accent: #f4d35e;
+}
+
+/* ===== General Typography ===== */
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.app-title {
+  color: var(--brand-green);
+  font-weight: 700;
+  text-align: center;
+}
+.app-title span {
+  color: var(--brand-accent);
+}
+
+/* ===== Navbar ===== */
+.navbar-brand span {
+  color: var(--brand-accent);
+}
+
+.navbar.bg-success,
+.bg-success.navbar {
+  background-color: var(--brand-green) !important;
+}
+
+/* ===== Footer ===== */
+footer {
+  font-size: 0.9rem;
+}
+footer a {
+  color: #fff;
+}
+footer a:hover {
+  color: var(--brand-accent);
+}
+
+/* ===== Buttons ===== */
+.btn-success {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: var(--brand-green);
+  --bs-btn-border-color: var(--brand-green);
+  --bs-btn-hover-bg: #2f6046;
+  --bs-btn-hover-border-color: #2f6046;
+  --bs-btn-active-bg: #2a4d3a;
+  --bs-btn-active-border-color: #2a4d3a;
+}
+
+.btn-outline-success {
+  --bs-btn-color: var(--brand-green);
+  --bs-btn-border-color: var(--brand-green);
+  --bs-btn-hover-bg: var(--brand-green);
+  --bs-btn-hover-border-color: var(--brand-green);
+  --bs-btn-hover-color: #fff;
+}
+
+/* ===== Form Focus ===== */
+.form-select:focus,
+.form-control:focus {
+  border-color: var(--brand-green);
+  box-shadow: 0 0 0 0.25rem rgba(59, 122, 87, 0.25);
+  outline: none;
+}
+
+/* ===== Question Card ===== */
+.question-card {
+  max-width: 720px;
+  margin: 2rem auto;
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+}
+
+.question-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--brand-green);
+}
+
+/* ===== Starters List ===== */
+.starter-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1rem;
+}
+.starter-list li {
+  margin-bottom: 0.5rem;
+}
+.starter-list li::before {
+  content: "• ";
+  color: var(--brand-green);
+  font-weight: bold;
+}
+
+/* ===== Progress Bar ===== */
+.progress {
+  height: 0.75rem;
+  border-radius: 0.5rem;
+}
+.progress-bar {
+  background-color: var(--brand-green);
+}
+
+/* ===== Utility ===== */
+kbd {
+  background-color: #e9ecef;
+  color: #000;
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-size: 0.85em;
+  border: 1px solid #ccc;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .app-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .app-title {
+    display: none;
+  }
+}

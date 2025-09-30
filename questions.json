@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "hu": "Hogy érzed ma magad?",
+    "starters": [
+      "Ma úgy érzem, hogy …",
+      "Fizikailag …, lelkileg …",
+      "Ami most a leginkább hat rám, az …",
+      "Ma reggel …, ezért …",
+      "Most leginkább … szeretnék."
+    ]
+  },
+  {
+    "id": 2,
+    "hu": "Milyen filmeket szeretsz?",
+    "starters": [
+      "Általában azokat a filmeket szeretem, amelyek …",
+      "A kedvenc rendezőm …",
+      "Legutóbb … láttam, és …",
+      "Ha választanom kellene műfajt, akkor …",
+      "A filmekben legjobban értékelem, hogy …"
+    ]
+  },
+  {
+    "id": 3,
+    "hu": "Van kedvenc ételed?",
+    "starters": [
+      "A kedvenc ételem …",
+      "Akkor esik igazán jól, amikor …",
+      "Ezt az ételt úgy szeretem elkészíteni, hogy …",
+      "Gyerekkoromból ehhez az ételhez … emlék kötődik.",
+      "Ha valakinek ajánlanám, azt mondanám, hogy …"
+    ]
+  },
+  {
+    "id": 4,
+    "hu": "Pesszimista vagy optimista vagy?",
+    "starters": [
+      "Inkább …, mert …",
+      "A mindennapokban úgy látom, hogy …",
+      "Amikor nehéz helyzetbe kerülök, …",
+      "Régen …, mostanában inkább …",
+      "Szerintem az optimizmus/pesszimizmus rám akkor hat, amikor …"
+    ]
+  },
+  {
+    "id": 5,
+    "hu": "Mesélj a reggeli rutinodról!",
+    "starters": [
+      "Általában … órakor kelek, és …",
+      "Az első dolgom reggel, hogy …",
+      "Ha sietek, akkor …",
+      "Ami nélkül nem indul a napom, az …",
+      "Hétvégén a rutinom …"
+    ]
+  },
+  {
+    "id": 6,
+    "hu": "Mit vettél legutóbb?",
+    "starters": [
+      "Legutóbb … vettem, mert …",
+      "Azért erre esett a választásom, mert …",
+      "A vásárlás élménye …",
+      "Azóta így használom: …",
+      "Ha újra venném, akkor …"
+    ]
+  },
+  {
+    "id": 7,
+    "hu": "Mi a legszebb hely, ahol valaha jártál?",
+    "starters": [
+      "A legszebb hely, ahol jártam, …",
+      "Az tetszett benne, hogy …",
+      "Akkor voltam ott, amikor …",
+      "Ha visszamehetnék, …",
+      "Másoknak azért ajánlanám, mert …"
+    ]
+  },
+  {
+    "id": 8,
+    "hu": "A kutyákat vagy a macskákat szereted jobban?",
+    "starters": [
+      "Inkább …-párti vagyok, mert …",
+      "Tapasztalatom szerint …",
+      "Ami a …ban a legjobb, hogy …",
+      "Gyerekkoromból egy emlék: …",
+      "Ha egyszer háziállatot vennék, …"
+    ]
+  },
+  {
+    "id": 9,
+    "hu": "Mi az álommunkád?",
+    "starters": [
+      "Az álommunkám …",
+      "Ezt azért tartom vonzónak, mert …",
+      "Ebben a munkában azt szeretném, hogy …",
+      "Hogy eljussak ide, …",
+      "Ha holnap elkezdhetném, …"
+    ]
+  }
+]
