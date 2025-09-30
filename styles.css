@@ -78,6 +78,16 @@ footer a:hover {
   color: var(--brand-green);
 }
 
+.question-translation {
+  font-size: 1rem;
+  color: #6c757d;
+  font-style: italic;
+}
+
+.question-translation:empty {
+  display: none;
+}
+
 /* ===== Starters List ===== */
 .starter-list {
   list-style: none;

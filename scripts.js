@@ -49,7 +49,12 @@ function nextQuestion() {
 function renderCurrent() {
   if (questions.length === 0) return;
   const currentQuestion = questions[questionOrder[currentIndex]];
+  // Hungarian
   byId("questionText").textContent = currentQuestion.hu;
+
+  // English
+  const englishElement = byId("questionEnglish");
+  if (englishElement) englishElement.textContent = currentQuestion.en;
 
   // starters
   const starterListElement = byId("starterList");
@@ -125,20 +130,21 @@ if (byId("favouritesList")) {
       const column = document.createElement("div");
       column.className = "col-12 col-md-6";
       column.innerHTML = `
-        <div class="card h-100 shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title">${favouriteQuestion.hu}</h5>
-            <ul class="starter-list">
-              ${favouriteQuestion.starters
-                .map((starterText) => `<li>${starterText}</li>`)
-                .join("")}
-            </ul>
-            <button class="btn btn-sm btn-outline-danger mt-2 delete-btn">
-              <i class="bi bi-trash"></i> Delete
-            </button>
-          </div>
-        </div>
-      `;
+  <div class="card h-100 shadow-sm">
+    <div class="card-body">
+      <h5 class="card-title">${favouriteQuestion.hu}</h5>
+      <div class="question-translation">${favouriteQuestion.en || ""}</div>
+      <ul class="starter-list">
+        ${favouriteQuestion.starters
+          .map((starterText) => `<li>${starterText}</li>`)
+          .join("")}
+      </ul>
+      <button class="btn btn-sm btn-outline-danger mt-2 delete-btn">
+        <i class="bi bi-trash"></i> Delete
+      </button>
+    </div>
+  </div>
+`;
 
       // attach delete handler
       column.querySelector(".delete-btn").addEventListener("click", () => {

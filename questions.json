@@ -2,6 +2,7 @@
   {
     "id": 1,
     "hu": "Hogy érzed ma magad?",
+    "en": "How do you feel today?",
     "starters": [
       "Ma úgy érzem, hogy …",
       "Fizikailag …, lelkileg …",
@@ -13,6 +14,7 @@
   {
     "id": 2,
     "hu": "Milyen filmeket szeretsz?",
+    "en": "What is your favourite film genre?",
     "starters": [
       "Általában azokat a filmeket szeretem, amelyek …",
       "A kedvenc rendezőm …",
@@ -24,6 +26,7 @@
   {
     "id": 3,
     "hu": "Van kedvenc ételed?",
+    "en": "What is your favourite dish?",
     "starters": [
       "A kedvenc ételem …",
       "Akkor esik igazán jól, amikor …",
@@ -35,6 +38,7 @@
   {
     "id": 4,
     "hu": "Pesszimista vagy optimista vagy?",
+    "en": "Are you a pessimist or an optimist?",
     "starters": [
       "Inkább …, mert …",
       "A mindennapokban úgy látom, hogy …",
@@ -46,6 +50,7 @@
   {
     "id": 5,
     "hu": "Mesélj a reggeli rutinodról!",
+    "en": "What does your morning routine look like?",
     "starters": [
       "Általában … órakor kelek, és …",
       "Az első dolgom reggel, hogy …",
@@ -57,6 +62,7 @@
   {
     "id": 6,
     "hu": "Mit vettél legutóbb?",
+    "en": "What was the last thing you bought?",
     "starters": [
       "Legutóbb … vettem, mert …",
       "Azért erre esett a választásom, mert …",
@@ -68,6 +74,7 @@
   {
     "id": 7,
     "hu": "Mi a legszebb hely, ahol valaha jártál?",
+    "en": "What is the most beautiful place you have ever visited?",
     "starters": [
       "A legszebb hely, ahol jártam, …",
       "Az tetszett benne, hogy …",
@@ -79,6 +86,7 @@
   {
     "id": 8,
     "hu": "A kutyákat vagy a macskákat szereted jobban?",
+    "en": "Do you prefer dogs or cats?",
     "starters": [
       "Inkább …-párti vagyok, mert …",
       "Tapasztalatom szerint …",
@@ -90,6 +98,7 @@
   {
     "id": 9,
     "hu": "Mi az álommunkád?",
+    "en": "What is your dream job?",
     "starters": [
       "Az álommunkám …",
       "Ezt azért tartom vonzónak, mert …",
