@@ -1,10 +1,8 @@
-/* ===== Brand Colors ===== */
 :root {
   --brand-green: #3b7a57;
   --brand-accent: #f4d35e;
 }
 
-/* ===== General Typography ===== */
 body {
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   background-color: #f8f9fa;
@@ -16,6 +14,7 @@ body {
   font-weight: 700;
   text-align: center;
 }
+
 .app-title span {
   color: var(--brand-accent);
 }
@@ -31,12 +30,10 @@ body {
 }
 
 /* ===== Footer ===== */
-footer {
-  font-size: 0.9rem;
-}
 footer a {
   color: #fff;
 }
+
 footer a:hover {
   color: var(--brand-accent);
 }
@@ -77,8 +74,7 @@ footer a:hover {
 }
 
 .question-text {
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--brand-green);
 }
 
@@ -88,9 +84,13 @@ footer a:hover {
   padding-left: 0;
   margin-bottom: 1rem;
 }
+
 .starter-list li {
   margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  line-height: 1.5;
 }
+
 .starter-list li::before {
   content: "• ";
   color: var(--brand-green);
@@ -102,8 +102,30 @@ footer a:hover {
   height: 0.75rem;
   border-radius: 0.5rem;
 }
+
 .progress-bar {
   background-color: var(--brand-green);
+}
+
+.form-check-input:checked {
+  background-color: var(--brand-green);
+  border-color: var(--brand-green);
+}
+
+.form-check-input:focus {
+  border-color: var(--brand-green);
+  box-shadow: 0 0 0 0.25rem rgba(47, 96, 70, 0.25);
+}
+
+#counter {
+  background-color: var(--brand-green);
+  color: #fff;
+  font-weight: 600;
+}
+
+#shortcutHints {
+  font-size: 0.9rem;
+  color: #6c757d;
 }
 
 /* ===== Utility ===== */
@@ -120,6 +142,10 @@ kbd {
 @media (max-width: 768px) {
   .app-title {
     font-size: 1.5rem;
+  }
+
+  #shortcutHints {
+    display: none;
   }
 }
 

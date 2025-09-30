@@ -1,40 +1,44 @@
 // ===== Utility =====
-const byId = (id) => document.getElementById(id);
-const shuffle = (arr) =>
-  arr
-    .map((v) => [Math.random(), v])
-    .sort((a, b) => a[0] - b[0])
-    .map((v) => v[1]);
+const byId = (elementId) => document.getElementById(elementId);
+
+const shuffle = (array) =>
+  array
+    .map((value) => [Math.random(), value]) // attach random number
+    .sort((aPair, bPair) => aPair[0] - bPair[0]) // sort by random number
+    .map((pair) => pair[1]); // extract original values
 
 // ===== State =====
 let questions = [];
-let order = [];
-let index = 0;
+let questionOrder = [];
+let currentIndex = 0;
 
 // ===== Load Questions =====
 async function loadQuestions() {
   try {
-    const res = await fetch("questions.json");
-    if (!res.ok) throw new Error("HTTP error " + res.status);
-    questions = await res.json();
+    const response = await fetch("questions.json");
+    if (!response.ok) throw new Error("HTTP error " + response.status);
+    questions = await response.json();
     resetDeck();
-  } catch (err) {
-    console.error("Loading error:", err);
-    byId("questionText").textContent = "Failed to load questions.";
+  } catch (error) {
+    console.error("Loading error:", error);
+    const questionTextElement = byId("questionText");
+    if (questionTextElement) {
+      questionTextElement.textContent = "Failed to load questions.";
+    }
   }
 }
 
 // ===== Deck Handling =====
 function resetDeck() {
   if (questions.length === 0) return;
-  order = shuffle([...Array(questions.length).keys()]);
-  index = 0;
+  questionOrder = shuffle([...Array(questions.length).keys()]);
+  currentIndex = 0;
   renderCurrent();
 }
 
 function nextQuestion() {
-  if (index < order.length - 1) {
-    index++;
+  if (currentIndex < questionOrder.length - 1) {
+    currentIndex++;
     renderCurrent();
   } else {
     resetDeck();
@@ -44,84 +48,90 @@ function nextQuestion() {
 // ===== Render =====
 function renderCurrent() {
   if (questions.length === 0) return;
-  const q = questions[order[index]];
-  byId("questionText").textContent = q.hu;
+  const currentQuestion = questions[questionOrder[currentIndex]];
+  byId("questionText").textContent = currentQuestion.hu;
 
   // starters
-  const starterList = byId("starterList");
-  starterList.innerHTML = "";
-  q.starters.forEach((s) => {
-    const li = document.createElement("li");
-    li.textContent = s;
-    starterList.appendChild(li);
+  const starterListElement = byId("starterList");
+  starterListElement.innerHTML = "";
+  currentQuestion.starters.forEach((starterText) => {
+    const listItem = document.createElement("li");
+    listItem.textContent = starterText;
+    starterListElement.appendChild(listItem);
   });
+
   byId("starters").style.display = byId("toggleStarters").checked
     ? "block"
     : "none";
 
   // counter + progress
-  byId("counter").textContent = `${index + 1}/${order.length}`;
-  const pct = Math.round(((index + 1) / order.length) * 100);
-  byId("progressBar").style.width = pct + "%";
-  byId("progressBar").setAttribute("aria-valuenow", pct);
+  byId("counter").textContent = `${currentIndex + 1}/${questionOrder.length}`;
+  const percentComplete = Math.round(
+    ((currentIndex + 1) / questionOrder.length) * 100
+  );
+  const progressBar = byId("progressBar");
+  progressBar.style.width = percentComplete + "%";
+  progressBar.setAttribute("aria-valuenow", percentComplete);
 }
 
 // ===== Favourites =====
 function addToFavourites(question) {
-  let favs = JSON.parse(localStorage.getItem("favourites")) || [];
-  if (!favs.find((f) => f.id === question.id)) {
-    favs.push(question);
-    localStorage.setItem("favourites", JSON.stringify(favs));
+  let favourites = JSON.parse(localStorage.getItem("favourites")) || [];
+  if (!favourites.find((fav) => fav.id === question.id)) {
+    favourites.push(question);
+    localStorage.setItem("favourites", JSON.stringify(favourites));
     showFavFeedback("✔ Added to favorites!");
   } else {
     showFavFeedback("★ Already in favorites!");
   }
 }
 
-function showFavFeedback(msg) {
-  const btn = byId("favBtn");
-  const original = btn.innerHTML;
-  btn.innerHTML = msg;
-  setTimeout(() => (btn.innerHTML = original), 1500);
+function showFavFeedback(message) {
+  const favButton = byId("favBtn");
+  const originalContent = favButton.innerHTML;
+  favButton.innerHTML = message;
+  setTimeout(() => (favButton.innerHTML = originalContent), 1500);
 }
 
 // ===== Favourites Page Logic =====
-if (document.getElementById("favouritesList")) {
+if (byId("favouritesList")) {
   function getFavourites() {
     return JSON.parse(localStorage.getItem("favourites")) || [];
   }
 
-  function saveFavourites(favs) {
-    localStorage.setItem("favourites", JSON.stringify(favs));
+  function saveFavourites(favourites) {
+    localStorage.setItem("favourites", JSON.stringify(favourites));
   }
 
-  function deleteFavourite(id) {
-    let favs = getFavourites();
-    favs = favs.filter((f) => f.id !== id);
-    saveFavourites(favs);
+  function deleteFavourite(favouriteId) {
+    let favourites = getFavourites();
+    favourites = favourites.filter((fav) => fav.id !== favouriteId);
+    saveFavourites(favourites);
     renderFavourites();
   }
 
   function renderFavourites() {
-    const favs = getFavourites();
-    const container = document.getElementById("favouritesList");
+    const favourites = getFavourites();
+    const container = byId("favouritesList");
     container.innerHTML = "";
 
-    if (favs.length === 0) {
+    if (favourites.length === 0) {
       container.innerHTML =
         '<p class="text-center text-muted">No favourites saved.</p>';
       return;
     }
 
-    favs.forEach((q) => {
-      const col = document.createElement("div");
-      col.className = "col-12 col-md-6";
-      col.innerHTML = `
+    favourites.forEach((favouriteQuestion) => {
+      const column = document.createElement("div");
+      column.className = "col-12 col-md-6";
+      column.innerHTML = `
         <div class="card h-100 shadow-sm">
           <div class="card-body">
-            <h5 class="card-title">${q.hu}</h5>
+            <h5 class="card-title">${favouriteQuestion.hu}</h5>
             <ul class="starter-list">
-              ${q.starters.map((s) => `<li>${s}</li>`).join("")}
+              ${favouriteQuestion.starters
+                .map((starterText) => `<li>${starterText}</li>`)
+                .join("")}
             </ul>
             <button class="btn btn-sm btn-outline-danger mt-2 delete-btn">
               <i class="bi bi-trash"></i> Delete
@@ -131,17 +141,17 @@ if (document.getElementById("favouritesList")) {
       `;
 
       // attach delete handler
-      col.querySelector(".delete-btn").addEventListener("click", () => {
+      column.querySelector(".delete-btn").addEventListener("click", () => {
         if (confirm("Delete this favourite?")) {
-          deleteFavourite(q.id);
+          deleteFavourite(favouriteQuestion.id);
         }
       });
 
-      container.appendChild(col);
+      container.appendChild(column);
     });
   }
 
-  document.getElementById("clearFavs").addEventListener("click", () => {
+  byId("clearFavs").addEventListener("click", () => {
     if (confirm("Are you sure you want to delete all your favourites?")) {
       localStorage.removeItem("favourites");
       renderFavourites();
@@ -152,29 +162,31 @@ if (document.getElementById("favouritesList")) {
 }
 
 // ===== Events =====
-byId("toggleStarters").addEventListener("change", renderCurrent);
-byId("nextBtn").addEventListener("click", nextQuestion);
-byId("resetBtn").addEventListener("click", resetDeck);
+byId("toggleStarters")?.addEventListener("change", renderCurrent);
+byId("nextBtn")?.addEventListener("click", nextQuestion);
+byId("resetBtn")?.addEventListener("click", resetDeck);
 
-byId("favBtn").addEventListener("click", () => {
+byId("favBtn")?.addEventListener("click", () => {
   if (questions.length > 0) {
-    const q = questions[order[index]];
-    addToFavourites(q);
+    const currentQuestion = questions[questionOrder[currentIndex]];
+    addToFavourites(currentQuestion);
   }
 });
 
 // keyboard shortcuts: Enter = next, S = toggle starters
-document.addEventListener("keydown", (e) => {
-  if (e.key === "Enter") {
-    e.preventDefault();
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Enter") {
+    event.preventDefault();
     nextQuestion();
   }
-  if (e.key.toLowerCase() === "s") {
-    const t = byId("toggleStarters");
-    t.checked = !t.checked;
+  if (event.key.toLowerCase() === "s") {
+    const toggle = byId("toggleStarters");
+    toggle.checked = !toggle.checked;
     renderCurrent();
   }
 });
 
 // ===== Init =====
-loadQuestions();
+if (byId("questionText")) {
+  loadQuestions();
+}
