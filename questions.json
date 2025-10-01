@@ -7,7 +7,6 @@
       "Ma úgy érzem, hogy …",
       "Fizikailag …, lelkileg …",
       "Ami most a leginkább hat rám, az …",
-      "Ma reggel …, ezért …",
       "Most leginkább … szeretnék."
     ]
   },
@@ -19,8 +18,7 @@
       "Általában azokat a filmeket szeretem, amelyek …",
       "A kedvenc rendezőm …",
       "Legutóbb … láttam, és …",
-      "Ha választanom kellene műfajt, akkor …",
-      "A filmekben legjobban értékelem, hogy …"
+      "Ha választanom kellene műfajt, akkor …"
     ]
   },
   {
@@ -30,8 +28,7 @@
     "starters": [
       "A kedvenc ételem …",
       "Akkor esik igazán jól, amikor …",
-      "Ezt az ételt úgy szeretem elkészíteni, hogy …",
-      "Gyerekkoromból ehhez az ételhez … emlék kötődik.",
+      "Nagyon szeretem, mert …",
       "Ha valakinek ajánlanám, azt mondanám, hogy …"
     ]
   },
@@ -43,8 +40,7 @@
       "Inkább …, mert …",
       "A mindennapokban úgy látom, hogy …",
       "Amikor nehéz helyzetbe kerülök, …",
-      "Régen …, mostanában inkább …",
-      "Szerintem az optimizmus/pesszimizmus rám akkor hat, amikor …"
+      "Régen …, mostanában inkább …"
     ]
   },
   {
@@ -53,10 +49,9 @@
     "en": "What does your morning routine look like?",
     "starters": [
       "Általában … órakor kelek, és …",
-      "Az első dolgom reggel, hogy …",
+      "Az első dolgom reggel az, hogy …",
       "Ha sietek, akkor …",
-      "Ami nélkül nem indul a napom, az …",
-      "Hétvégén a rutinom …"
+      "Ami nélkül nem indul a napom, az …"
     ]
   },
   {
@@ -66,9 +61,8 @@
     "starters": [
       "Legutóbb … vettem, mert …",
       "Azért erre esett a választásom, mert …",
-      "A vásárlás élménye …",
       "Azóta így használom: …",
-      "Ha újra venném, akkor …"
+      "Szerintem jó / rossz választás volt, mert …"
     ]
   },
   {
@@ -78,8 +72,7 @@
     "starters": [
       "A legszebb hely, ahol jártam, …",
       "Az tetszett benne, hogy …",
-      "Akkor voltam ott, amikor …",
-      "Ha visszamehetnék, …",
+      "A kedvenc helyem …",
       "Másoknak azért ajánlanám, mert …"
     ]
   },
@@ -90,8 +83,7 @@
     "starters": [
       "Inkább …-párti vagyok, mert …",
       "Tapasztalatom szerint …",
-      "Ami a …ban a legjobb, hogy …",
-      "Gyerekkoromból egy emlék: …",
+      "Azért szeretem a kutyákat / macskákat, mert …",
       "Ha egyszer háziállatot vennék, …"
     ]
   },
@@ -103,8 +95,1008 @@
       "Az álommunkám …",
       "Ezt azért tartom vonzónak, mert …",
       "Ebben a munkában azt szeretném, hogy …",
-      "Hogy eljussak ide, …",
-      "Ha holnap elkezdhetném, …"
+      "Kipróbálnám, mert …"
+    ]
+  },
+  {
+    "id": 10,
+    "hu": "Mit szeretsz csinálni a szabadidődben?",
+    "en": "What do you like to do in your free time?",
+    "starters": [
+      "A szabadidőmben legszívesebben …",
+      "Ha van egy kis időm, akkor …",
+      "Kikapcsolódásként gyakran …",
+      "Ami igazán feltölt, az …"
+    ]
+  },
+  {
+    "id": 11,
+    "hu": "Mit szeretsz enni reggelire?",
+    "en": "What do you like to eat for breakfast?",
+    "starters": [
+      "Reggelire általában … eszem.",
+      "A kedvenc reggelim …",
+      "Ha sietek, akkor …",
+      "Hétvégén szeretek … reggelizni."
+    ]
+  },
+  {
+    "id": 12,
+    "hu": "Mit ünnepeltél utoljára?",
+    "en": "What is the last thing you celebrated?",
+    "starters": [
+      "Legutóbb … ünnepeltem.",
+      "Azért volt különleges, mert …",
+      "Ezt az ünnepet … társaságában töltöttem.",
+      "A legemlékezetesebb pillanat az volt, amikor …"
+    ]
+  },
+  {
+    "id": 13,
+    "hu": "Melyik a kedvenc alkalmazásod?",
+    "en": "What is your favourite app?",
+    "starters": [
+      "A kedvenc alkalmazásom …",
+      "Ezt azért szeretem, mert …",
+      "Naponta … használom.",
+      "Ha ajánlanom kellene egy alkalmazást, az … lenne."
+    ]
+  },
+  {
+    "id": 14,
+    "hu": "Van kedvenc könyved?",
+    "en": "What is your favourite book?",
+    "starters": [
+      "A kedvenc könyvem …",
+      "Ezt a könyvet azért szeretem, mert …",
+      "Legutóbb … olvastam, és …",
+      "Ha valakinek ajánlanám, azt mondanám, hogy …"
+    ]
+  },
+  {
+    "id": 15,
+    "hu": "Melyik szuperhős szeretnél lenni?",
+    "en": "If you were a superhero, who would you be?",
+    "starters": [
+      "Ha szuperhős lennék, … lennék.",
+      "Azért választanám őt, mert …",
+      "A képességei közül leginkább … tetszik.",
+      "Ha lenne egy szupererőm, az … lenne."
+    ]
+  },
+  {
+    "id": 16,
+    "hu": "Ha egész nap csak egy ételt ehetnél, mi lenne az?",
+    "en": "If you had to eat one dish all day, what would it be?",
+    "starters": [
+      "Egész nap tudnék … enni.",
+      "Azért választanám ezt, mert …",
+      "Ez az étel számomra azért különleges, mert …",
+      "Ha mindig ezt ehetném, akkor …"
+    ]
+  },
+  {
+    "id": 17,
+    "hu": "Mit tudsz a legjobban főzni?",
+    "en": "Which dish can you cook the best?",
+    "starters": [
+      "A legjobban … tudok főzni.",
+      "Ezt az ételt azért szeretem készíteni, mert …",
+      "Általában így készítem: …",
+      "Aki kóstolta, azt mondta, hogy …"
+    ]
+  },
+  {
+    "id": 18,
+    "hu": "Mi szerepel a bakancslistádon?",
+    "en": "What is on your bucket list?",
+    "starters": [
+      "A bakancslistámon szerepel, hogy …",
+      "Nagyon szeretnék egyszer …",
+      "Mindig is vágytam arra, hogy …",
+      "A legnagyobb álmom az, hogy …"
+    ]
+  },
+  {
+    "id": 19,
+    "hu": "Milyen újévi fogadalmat teszel minden évben?",
+    "en": "Which New Year's resolution do you make every year?",
+    "starters": [
+      "Minden évben megfogadom, hogy …",
+      "Általában az a célom, hogy …",
+      "Legtöbbször … próbálok változtatni.",
+      "A legnehezebb betartani azt, hogy …"
+    ]
+  },
+  {
+    "id": 20,
+    "hu": "Az édes vagy a sós ételeket szereted jobban?",
+    "en": "Do you prefer sweet or savoury?",
+    "starters": [
+      "Inkább az édeset szeretem, mert …",
+      "Sós párti vagyok, mert …",
+      "Attól függ, hogy …",
+      "A kedvenc édességem / sós ételem …"
+    ]
+  },
+  {
+    "id": 21,
+    "hu": "Hány pár cipőd van?",
+    "en": "How many pairs of shoes do you have?",
+    "starters": [
+      "Összesen … pár cipőm van.",
+      "A legtöbbet … hordom.",
+      "A kedvenc cipőm …",
+      "Nagyon sok … cipőm van."
+    ]
+  },
+  {
+    "id": 22,
+    "hu": "Hány lépést teszel meg egy nap?",
+    "en": "How many steps do you take in a day?",
+    "starters": [
+      "Átlagosan … lépést teszek meg naponta.",
+      "Ha sok dolgom van, akkor …",
+      "Amikor sportolok, akkor …",
+      "Nagyon sokat sétálok akkor, amikor …"
+    ]
+  },
+  {
+    "id": 23,
+    "hu": "Ki nevettet meg a legjobban?",
+    "en": "Who made you laugh the hardest?",
+    "starters": [
+      "Aki a legjobban meg tud nevettetni, az …",
+      "Legutóbb … miatt nevettem nagyon sokat.",
+      "Általában … szokott megnevettetni.",
+      "A legviccesebb élményem vele az volt, amikor …"
+    ]
+  },
+  {
+    "id": 24,
+    "hu": "Ki volt az utolsó, akivel online beszéltél?",
+    "en": "With whom did you last have contact via WhatsApp?",
+    "starters": [
+      "Legutóbb …-val/vel beszéltem Facebookon.",
+      "Azért írtam neki, mert …",
+      "A beszélgetésünk arról szólt, hogy …",
+      "Általában vele szoktam …"
+    ]
+  },
+  {
+    "id": 25,
+    "hu": "Álmodozó, gondolkodó vagy cselekvő típus vagy?",
+    "en": "Are you a dreamer, thinker, or doer?",
+    "starters": [
+      "Inkább … típus vagyok, mert …",
+      "A legtöbbször úgy viselkedem, hogy …",
+      "Mások szerint … típus vagyok.",
+      "A helyzettől függ, de általában …"
+    ]
+  },
+  {
+    "id": 26,
+    "hu": "Inkább népszerű lennél, vagy inkább okos?",
+    "en": "Would you rather be popular or would you rather be smart?",
+    "starters": [
+      "Inkább … lennék, mert …",
+      "Szerintem fontosabb az, hogy …",
+      "Ha választanom kellene, akkor …",
+      "A döntésem oka az, hogy …"
+    ]
+  },
+  {
+    "id": 27,
+    "hu": "Bent vagy kint szeretsz lenni?",
+    "en": "Are you an outdoorsy person or an indoorsy person?",
+    "starters": [
+      "Inkább bent szeretek lenni, mert …",
+      "Sokkal jobban érzem magam kint, amikor …",
+      "Attól függ, hogy …",
+      "A legjobb élményeim általában …"
+    ]
+  },
+  {
+    "id": 28,
+    "hu": "Mely apró dolgok tesznek boldoggá?",
+    "en": "What small things make you happy?",
+    "starters": [
+      "Boldoggá tesz, amikor …",
+      "Egy apróság, ami mindig mosolyt csal az arcomra, az …",
+      "A mindennapokban leginkább … tesz boldoggá.",
+      "A legkisebb dolog, ami feldob, az …"
+    ]
+  },
+  {
+    "id": 29,
+    "hu": "Melyik országban szeretnél élni?",
+    "en": "In which country would you most like to live?",
+    "starters": [
+      "Legszívesebben … élnék.",
+      "Azért választanám ezt az országot, mert …",
+      "Mindig is vonzott, hogy …",
+      "Ha lehetőségem lenne, akkor …"
+    ]
+  },
+  {
+    "id": 30,
+    "hu": "Miről készítettél legutóbb fényképet?",
+    "en": "What was the last photo you took of?",
+    "starters": [
+      "Legutóbb …-ról/ről készítettem képet.",
+      "Azért fotóztam le, mert …",
+      "A kép számomra azért fontos, mert …",
+      "Általában … szoktam fotózni."
+    ]
+  },
+  {
+    "id": 31,
+    "hu": "Melyiket választanád: városnézés vagy tengerparti nyaralás?",
+    "en": "Do you choose a city trip or a beach vacation?",
+    "starters": [
+      "Inkább városnézésre mennék, mert …",
+      "A tengerparti nyaralást választanám, mert …",
+      "Attól függ, hogy …",
+      "A legjobb élményem … volt."
+    ]
+  },
+  {
+    "id": 32,
+    "hu": "Bőséges reggeli vagy kiadós vacsora?",
+    "en": "Do you prefer an extensive breakfast or an elaborate dinner?",
+    "starters": [
+      "Inkább a bőséges reggelit szeretem, mert …",
+      "A kiadós vacsora mellett döntenék, mert …",
+      "A napom jobban indul, ha …",
+      "Jobban szeretem, ha …"
+    ]
+  },
+  {
+    "id": 33,
+    "hu": "Főzöl vagy inkább ételt rendelsz?",
+    "en": "Do you prefer to cook yourself or order food?",
+    "starters": [
+      "Inkább főzök, mert …",
+      "Szeretek rendelni, ha …",
+      "Hétköznap …",
+      "Ha választanom kellene, akkor …"
+    ]
+  },
+  {
+    "id": 34,
+    "hu": "Melyik hírességgel szeretnél egy napot eltölteni?",
+    "en": "With which celebrity would you like to have a day out?",
+    "starters": [
+      "Legszívesebben …-val/vel töltenék egy napot.",
+      "Azért őt választanám, mert …",
+      "A közös programunk biztosan … lenne.",
+      "Ezeket a kérdéseket tenném fel neki: …"
+    ]
+  },
+  {
+    "id": 35,
+    "hu": "Milyen házimunkát nem szeretsz?",
+    "en": "What household chore do you really dislike?",
+    "starters": [
+      "A legkevésbé szeretem a …",
+      "Mindig halogatom …",
+      "Ha tehetném, soha nem …",
+      "A legrosszabb benne az, hogy …"
+    ]
+  },
+  {
+    "id": 36,
+    "hu": "Hogy néz ki álomházad?",
+    "en": "What does your dream house look like?",
+    "starters": [
+      "Az álomházam … lenne.",
+      "A legfontosabb számomra az, hogy …",
+      "Mindenképp szeretném, ha …",
+      "Nagyon szeretnék egy …"
+    ]
+  },
+  {
+    "id": 37,
+    "hu": "Mit szeretsz csinálni a hétvégén?",
+    "en": "What do you like to do on the weekends?",
+    "starters": [
+      "Hétvégén legszívesebben …",
+      "Általában … szoktam ilyenkor.",
+      "A hétvége számomra arról szól, hogy …",
+      "A legjobb hétvégém akkor van, amikor …"
+    ]
+  },
+  {
+    "id": 38,
+    "hu": "Mi (volt) a kedvenc plüssállatod neve?",
+    "en": "What is (was) the name of your favourite stuffed animal?",
+    "starters": [
+      "A kedvenc plüssállatom neve …",
+      "Ezt a plüsst azért szeretem, mert …",
+      "Már … óta megvan.",
+      "Ha mesélni tudna, biztosan azt mondaná, hogy …"
+    ]
+  },
+  {
+    "id": 39,
+    "hu": "Mik a jó tulajdonságaid?",
+    "en": "What is a good quality of yours?",
+    "starters": [
+      "Az egyik jó tulajdonságom, hogy …",
+      "Mások szerint … vagyok.",
+      "Leginkább arra vagyok büszke, hogy …",
+      "Ez a tulajdonságom segít abban, hogy …"
+    ]
+  },
+  {
+    "id": 40,
+    "hu": "Melyik a legszebb hely Magyarországon?",
+    "en": "What is the most beautiful spot in Hungary?",
+    "starters": [
+      "Szerintem a legszebb hely …",
+      "Azért tartom különlegesnek, mert …",
+      "Amikor ott jártam, …",
+      "Másoknak azért ajánlanám, mert …"
+    ]
+  },
+  {
+    "id": 41,
+    "hu": "Van kedvenc idézeted?",
+    "en": "What is your favourite quote?",
+    "starters": [
+      "A kedvenc idézetem így szól: …",
+      "Ez az idézet azért fontos számomra, mert …",
+      "Gyakran eszembe jut, amikor …",
+      "Ez az idézet segít abban, hogy …"
+    ]
+  },
+  {
+    "id": 42,
+    "hu": "Van kedvenc édességed?",
+    "en": "What is your favourite candy?",
+    "starters": [
+      "A kedvenc édességem …",
+      "Ezt azért szeretem, mert …",
+      "Legutóbb … ettem belőle.",
+      "Ha választanom kellene, mindig … választanám."
+    ]
+  },
+  {
+    "id": 43,
+    "hu": "Melyik a kedvenc közlekedési eszközöd?",
+    "en": "What is your favourite mode of transportation?",
+    "starters": [
+      "Legszívesebben … közlekedem.",
+      "Azért szeretem ezt a közlekedési eszközt, mert …",
+      "A legjobb élményem ezzel az volt, amikor …",
+      "Ha választhatnék, mindig … választanám."
+    ]
+  },
+  {
+    "id": 44,
+    "hu": "Hová szeretnél leginkább utazni?",
+    "en": "Where would you most like to travel to?",
+    "starters": [
+      "Legszívesebben … utaznék.",
+      "Azért választanám ezt a helyet, mert …",
+      "Mindig is vágytam arra, hogy …",
+      "Ha lehetőségem lenne, akkor …"
+    ]
+  },
+  {
+    "id": 45,
+    "hu": "Mitől leszel boldog?",
+    "en": "What makes you happy?",
+    "starters": [
+      "Boldoggá tesz, amikor …",
+      "A legapróbb dolog, ami örömet okoz, az …",
+      "A mindennapokban leginkább … tesz boldoggá.",
+      "A legnagyobb öröm számomra az, hogy …"
+    ]
+  },
+  {
+    "id": 46,
+    "hu": "Miért szeretnél híres lenni?",
+    "en": "What would you like to be famous for?",
+    "starters": [
+      "Ha híres lennék …",
+      "Azért szeretnék híres lenni, mert …",
+      "A hírnév számomra azt jelentené, hogy …",
+      "A legfontosabb, hogy …"
+    ]
+  },
+  {
+    "id": 47,
+    "hu": "Hol szeretnél leginkább ingyen vásárolni tíz percig?",
+    "en": "Where would you like to shop for free for 10 minutes?",
+    "starters": [
+      "Legszívesebben …-ban/ben vásárolnék ingyen.",
+      "Azért választanám ezt a boltot, mert …",
+      "Tíz perc alatt biztosan … vennék.",
+      "A taktikám az lenne, hogy …"
+    ]
+  },
+  {
+    "id": 48,
+    "hu": "Van kedvenc italod?",
+    "en": "What is your favourite drink?",
+    "starters": [
+      "A kedvenc italom …",
+      "Ezt azért szeretem, mert …",
+      "Legutóbb … ittam belőle.",
+      "Ha választanom kellene, mindig … választanám."
+    ]
+  },
+  {
+    "id": 49,
+    "hu": "Melyik kedvenc ünneped?",
+    "en": "What is your favourite holiday?",
+    "starters": [
+      "A kedvenc ünnepem …",
+      "Azért szeretem ezt az ünnepet, mert …",
+      "A legszebb emlékem, amikor …",
+      "Ha választanom kellene, …"
+    ]
+  },
+  {
+    "id": 50,
+    "hu": "Milyen könyveket szeretsz olvasni?",
+    "en": "What is your favourite genre of books?",
+    "starters": [
+      "Legszívesebben … könyveket olvasok.",
+      "Azért szeretem ezt a műfajt, mert …",
+      "A kedvenc könyvem ebben a műfajban …",
+      "Ha ajánlanom kellene egyet, az … lenne."
+    ]
+  },
+  {
+    "id": 51,
+    "hu": "Ki a példaképed?",
+    "en": "Who is your biggest role model?",
+    "starters": [
+      "A példaképem …",
+      "Azért tisztelem őt, mert …",
+      "Tőle tanultam meg, hogy …",
+      "A legnagyobb hatással rám az volt, amikor …"
+    ]
+  },
+  {
+    "id": 52,
+    "hu": "Egy év TV vagy egy év nassolás nélkül? Melyiket választanád?",
+    "en": "Would you rather go a year without TV or a year without snacks?",
+    "starters": [
+      "Inkább TV nélkül élnék, mert …",
+      "Nehéz lenne nassolás nélkül, mert …",
+      "Ha választanom kellene, akkor …",
+      "A döntésem oka az, hogy …"
+    ]
+  },
+  {
+    "id": 53,
+    "hu": "Most ki a kedvenc előadód?",
+    "en": "Who is your favourite artist at the moment?",
+    "starters": [
+      "Mostanában legszívesebben … hallgatok.",
+      "Azért ő a kedvencem, mert …",
+      "A kedvenc dalom tőle …",
+      "Szeretem, mert …"
+    ]
+  },
+  {
+    "id": 54,
+    "hu": "Ki ismer téged a legjobban?",
+    "en": "Who knows you the best?",
+    "starters": [
+      "Aki a legjobban ismer, az …",
+      "Ő azért ismer ennyire, mert …",
+      "Mindig tudja, hogy …",
+      "A kapcsolatunk különleges, mert …"
+    ]
+  },
+  {
+    "id": 55,
+    "hu": "Kit vinnél magaddal egy lakatlan szigetre?",
+    "en": "Who would you take to a deserted island?",
+    "starters": [
+      "Egy lakatlan szigetre … vinném magammal.",
+      "Azért őt választanám, mert …",
+      "Biztosan segítene abban, hogy …",
+      "Nélküle nehéz lenne, mert …"
+    ]
+  },
+  {
+    "id": 56,
+    "hu": "Kiben bízol a legjobban?",
+    "en": "Who do you trust the most?",
+    "starters": [
+      "A legjobban …-ban/ben bízom.",
+      "Azért bízom benne, mert …",
+      "Mindig számíthatok rá, amikor …",
+      "A legfontosabb bizonyíték erre az, hogy …"
+    ]
+  },
+  {
+    "id": 57,
+    "hu": "Miről szeretsz beszélgetni?",
+    "en": "What do you like to talk about?",
+    "starters": [
+      "Legszívesebben … témáról beszélgetek.",
+      "Mindig érdekes számomra, ha …",
+      "A legtöbbször … kerül szóba.",
+      "Szívesen beszélek erről, mert …"
+    ]
+  },
+  {
+    "id": 58,
+    "hu": "Mi az, ami idegesít?",
+    "en": "What do you get annoyed by easily?",
+    "starters": [
+      "Nagyon idegesít, amikor …",
+      "A legjobban az zavar, hogy …",
+      "Mindig bosszant, ha …",
+      "A legkisebb dolog, ami felidegesít, az …"
+    ]
+  },
+  {
+    "id": 59,
+    "hu": "Mikor írtál utoljára kézzel levelet?",
+    "en": "When was the last time you wrote a letter by hand?",
+    "starters": [
+      "Utoljára … írtam kézzel levelet.",
+      "Azért írtam, mert …",
+      "A címzett … volt.",
+      "Érdekes volt, mert …"
+    ]
+  },
+  {
+    "id": 60,
+    "hu": "Van kedvenc ruhadarabod?",
+    "en": "What is your most favourite piece of clothing?",
+    "starters": [
+      "A kedvenc ruhadarabom …",
+      "Ezt azért szeretem, mert …",
+      "A legtöbbször akkor veszem fel, amikor …",
+      "Különleges számomra, mert …"
+    ]
+  },
+  {
+    "id": 61,
+    "hu": "Mikor küldtél utoljára képeslapot?",
+    "en": "When was the last time you sent a card?",
+    "starters": [
+      "Utoljára … küldtem képeslapot.",
+      "Azért küldtem, mert …",
+      "A címzett … volt.",
+      "Szeretem a képeslapokat, mert …"
+    ]
+  },
+  {
+    "id": 62,
+    "hu": "Kit szeretnél jobban megismerni?",
+    "en": "Who do you want to get to know better?",
+    "starters": [
+      "Nagyon szeretném jobban megismerni …",
+      "Azért őt választanám, mert …",
+      "Érdekel, hogy …",
+      "A kapcsolatunk biztosan jobb lenne, ha …"
+    ]
+  },
+  {
+    "id": 63,
+    "hu": "Ha csak egy sorozatot nézhetnél, melyiket választanád?",
+    "en": "If you could only watch one TV series, which one would you choose?",
+    "starters": [
+      "Ha csak egy sorozatot nézhetnék, az … lenne.",
+      "Azért választanám ezt, mert …",
+      "A kedvenc jelenetem, amikor …",
+      "A legjobban azt szeretem benne, hogy …"
+    ]
+  },
+  {
+    "id": 64,
+    "hu": "Szeretnél továbbra is ott élni, ahol most élsz?",
+    "en": "Do you want to keep living where you currently reside?",
+    "starters": [
+      "Igen, mert …",
+      "Nem, inkább … szeretnék élni.",
+      "Attól függ, hogy …",
+      "Úgy gondolom, hogy …"
+    ]
+  },
+  {
+    "id": 65,
+    "hu": "Inkább városban vagy faluban élnél?",
+    "en": "Do you prefer living in a city or a village?",
+    "starters": [
+      "Inkább városban élnék, mert …",
+      "A falusi életet jobban szeretem, mert …",
+      "Mindkettőnek megvan az előnye, például …",
+      "Ha választanom kellene, akkor …"
+    ]
+  },
+  {
+    "id": 66,
+    "hu": "Énekelsz néha a zuhany alatt?",
+    "en": "Do you ever sing in the shower?",
+    "starters": [
+      "Igen, gyakran énekelek, például …",
+      "Néha dúdolok, amikor …",
+      "Nem szoktam, mert …",
+      "A zuhany alatt általában …"
+    ]
+  },
+  {
+    "id": 67,
+    "hu": "Mi az a három dolog, ami nélkül nem tudnál élni?",
+    "en": "What are the 3 things you can't live without?",
+    "starters": [
+      "Nem tudnék élni … nélkül.",
+      "A három legfontosabb dolog számomra: …",
+      "Azért ezek fontosak, mert …",
+      "Ha választanom kellene, mindig …"
+    ]
+  },
+  {
+    "id": 68,
+    "hu": "Melyik állat lennél egy napra?",
+    "en": "Which animal would you like to be for a day?",
+    "starters": [
+      "Egy napra … lennék.",
+      "Azért választanám ezt az állatot, mert …",
+      "A legjobb dolog az lenne, hogy …",
+      "Érdekelne, milyen érzés …"
+    ]
+  },
+  {
+    "id": 69,
+    "hu": "Melyik ételt főzted meg először egyedül?",
+    "en": "Which dish did you cook by yourself for the first time?",
+    "starters": [
+      "Az első étel, amit egyedül főztem, az … volt.",
+      "Azért ezt választottam, mert …",
+      "Emlékszem, hogy …",
+      "A legjobb érzés az volt, amikor …"
+    ]
+  },
+  {
+    "id": 70,
+    "hu": "Szeretnél külföldön élni?",
+    "en": "Would you like to live abroad?",
+    "starters": [
+      "Igen, legszívesebben … élnék.",
+      "Nem, inkább … maradnék.",
+      "Attól függ, hogy …",
+      "A legnagyobb előnye annak, ha külföldön élnék, hogy …"
+    ]
+  },
+  {
+    "id": 71,
+    "hu": "Tengerparton vagy a hegyekben szeretnél élni?",
+    "en": "Would you rather live by the sea or in the mountains?",
+    "starters": [
+      "Inkább a tengerparton élnék, mert …",
+      "A hegyekben élnék szívesebben, mert …",
+      "Mindkettőnek van előnye, például …",
+      "Ha választanom kellene, akkor …"
+    ]
+  },
+  {
+    "id": 72,
+    "hu": "Melyiket választanád? Jó énekes vagy jó táncos lennél inkább?",
+    "en": "Would you rather be a good singer or a good dancer?",
+    "starters": [
+      "Inkább jó énekes lennék, mert …",
+      "Jobban szeretnék táncolni, mert …",
+      "Mindkettőnek van előnye, például …",
+      "Ha választanom kellene, akkor …"
+    ]
+  },
+  {
+    "id": 73,
+    "hu": "Mit vinnél magaddal egy lakatlan szigetre?",
+    "en": "What would you take to a deserted island?",
+    "starters": [
+      "Egy lakatlan szigetre biztosan vinnék …",
+      "Azért ezt választanám, mert …",
+      "A legfontosabb dolog számomra az lenne, hogy …",
+      "Ha csak egy dolgot vihetnék, az … lenne."
+    ]
+  },
+  {
+    "id": 74,
+    "hu": "Melyik dalt énekelnéd, ha részt vennél egy tehetségkutató versenyen?",
+    "en": "Which song would you sing if you participated in a singing contest?",
+    "starters": [
+      "Ha énekelnem kellene, a … dalt választanám.",
+      "Azért ezt a dalt énekelném, mert …",
+      "Ez a dal számomra azért különleges, mert …",
+      "A legjobban azt szeretem benne, hogy …"
+    ]
+  },
+  {
+    "id": 75,
+    "hu": "Milyen hangszeren szeretnél megtanulni játszani?",
+    "en": "Which musical instrument would you like to learn to play?",
+    "starters": [
+      "Legszívesebben … tanulnék meg játszani.",
+      "Azért választanám ezt a hangszert, mert …",
+      "Mindig is érdekelt, hogy …",
+      "Nagyon szeretnék megtnaulni …"
+    ]
+  },
+  {
+    "id": 76,
+    "hu": "Miben szeretnél tehetséges lenni?",
+    "en": "What talent would you like to have?",
+    "starters": [
+      "Legszívesebben … lennék tehetséges.",
+      "Azért szeretném ezt a képességet, mert …",
+      "Mindig is vágytam arra, hogy …",
+      "A legjobb dolog az lenne, ha …"
+    ]
+  },
+  {
+    "id": 77,
+    "hu": "Melyik televíziós műsort utálod?",
+    "en": "Which TV show do you refuse to watch?",
+    "starters": [
+      "A … műsort soha nem nézném meg.",
+      "Azért nem szeretem, mert …",
+      "Mindig idegesít benne, hogy …",
+      "Valószínűleg azért uttálom, mert …"
+    ]
+  },
+  {
+    "id": 78,
+    "hu": "Szeretnél a Marson élni, ha lehetne?",
+    "en": "Would you want to live on Mars if you could?",
+    "starters": [
+      "Igen, kipróbálnám, mert …",
+      "Nem, inkább a Földön maradnék, mert …",
+      "Érdekelne, hogy milyen érzés …",
+      "A legnagyobb kihívás az lenne, hogy …"
+    ]
+  },
+  {
+    "id": 79,
+    "hu": "Mely tárgyakat vinnéd el otthonodból tűz esetén?",
+    "en": "Which objects from your home would you take in case of a fire?",
+    "starters": [
+      "Elsőként … vinném magammal.",
+      "A legfontosabb számomra, hogy …",
+      "Biztosan nem hagynám ott …",
+      "Ha csak egy dolgot vihetnék, az … lenne."
+    ]
+  },
+  {
+    "id": 80,
+    "hu": "Kit hívtál fel utoljára?",
+    "en": "Who did you call last?",
+    "starters": [
+      "Legutóbb … hívtam fel.",
+      "Azért hívtam, mert …",
+      "A beszélgetésünk arról szólt, hogy …",
+      "Mindig vele szoktam … megbeszélni."
+    ]
+  },
+  {
+    "id": 81,
+    "hu": "Melyik magyar várost szeretnéd meglátogatni?",
+    "en": "Which city in Hungary would you still like to visit?",
+    "starters": [
+      "Legszívesebben … látogatnám meg.",
+      "Azért szeretném megnézni, mert …",
+      "Mindig is kíváncsi voltam arra, hogy …",
+      "Azt hallottam róla, hogy …"
+    ]
+  },
+  {
+    "id": 82,
+    "hu": "Melyik szó jellemzi az idei évedet?",
+    "en": "What is the word of the year for you?",
+    "starters": [
+      "Az idei évemet legjobban a … szó írja le.",
+      "Azért választottam ezt a szót, mert …",
+      "Az idei évem …",
+      "Remélem, hogy idén még …"
+    ]
+  },
+  {
+    "id": 83,
+    "hu": "Milyen nyelvet szeretnél beszélni?",
+    "en": "Which language would you like to speak?",
+    "starters": [
+      "Legszívesebben … nyelvet beszélnék.",
+      "Azért ezt a nyelvet választanám, mert …",
+      "Mindig is szerettem volna megtanulni, mert …",
+      "A legjobb az lenne, ha … nyelven tudnék beszélni."
+    ]
+  },
+  {
+    "id": 84,
+    "hu": "Mit tennél először, ha nyernél a lottón?",
+    "en": "What would you do first if you won the lottery?",
+    "starters": [
+      "Először …",
+      "Az első gondolatom az lenne, hogy …",
+      "Biztosan megosztanám …",
+      "A legfontosabb számomra az lenne, hogy …"
+    ]
+  },
+  {
+    "id": 85,
+    "hu": "Melyik ország konyháját szereted a legjobban?",
+    "en": "Which cuisine do you like the most?",
+    "starters": [
+      "A legjobban a … konyhát szeretem.",
+      "Azért szeretem ezt a konyhát, mert …",
+      "A kedvenc ételem …",
+      "Ha választhatnom kellene, …"
+    ]
+  },
+  {
+    "id": 86,
+    "hu": "Melyik név tetszik?",
+    "en": "Which name do you find really beautiful?",
+    "starters": [
+      "Nagyon szép névnek tartom a …",
+      "Azért tetszik ez a név, mert …",
+      "Szerintem azért tetszik, mert …",
+      "Igazán szép név, mert …"
+    ]
+  },
+  {
+    "id": 87,
+    "hu": "Milyen nevet adnál magadnak, ha megváltoztathatnád?",
+    "en": "Which name would you give yourself if you could change it?",
+    "starters": [
+      "Ha megváltoztathatnám a nevem, … választanám.",
+      "Azért ezt a nevet adnám magamnak, mert …",
+      "Mindig is tetszett, hogy …",
+      "A legjobban a … név illene hozzám."
+    ]
+  },
+  {
+    "id": 88,
+    "hu": "Melyik filmet láttad már több mint tízszer?",
+    "en": "Which movie have you seen more than 10 times?",
+    "starters": [
+      "A … filmet már több mint tízszer láttam.",
+      "Azért néztem meg ennyiszer, mert …",
+      "Mindig jó érzés újra megnézni, mert …",
+      "A kedvenc jelenetem belőle …"
+    ]
+  },
+  {
+    "id": 89,
+    "hu": "Melyik hírességgel találkoztál már?",
+    "en": "Which celebrity have you ever met?",
+    "starters": [
+      "Egyszer találkoztam …-val/vel.",
+      "Azért volt különleges ez a találkozás, mert …",
+      "A legemlékezetesebb pillanat az volt, amikor …",
+      "Soha nem felejtem el, hogy …"
+    ]
+  },
+  {
+    "id": 90,
+    "hu": "Melyik teafajtát szereted a legjobban?",
+    "en": "Which tea flavours do you prefer?",
+    "starters": [
+      "A kedvenc teám …",
+      "Azért szeretem, mert …",
+      "Legutóbb … ittam, és nagyon ízlett.",
+      "Ha választanom kellene, … választanám."
+    ]
+  },
+  {
+    "id": 91,
+    "hu": "Melyik három szó ír le téged a legjobban?",
+    "en": "Which 3 words describe you the best?",
+    "starters": [
+      "A három szó, ami a legjobban leír, az …",
+      "Mások szerint … vagyok.",
+      "A legfontosabb tulajdonságaim közé tartozik, hogy …",
+      "Ha röviden kellene jellemeznem magam, azt mondanám: …"
+    ]
+  },
+  {
+    "id": 92,
+    "hu": "Melyik színész játssza el a főszerepet az életedről szóló filmben?",
+    "en": "Which actor would play the lead role in the movie about your life?",
+    "starters": [
+      "Az életemről szóló filmben … játszaná a főszerepet.",
+      "Azért őt választanám, mert …",
+      "Szerintem jó választás lenne, mert …",
+      "A legjobban azt szeretném, ha … alakítana."
+    ]
+  },
+  {
+    "id": 93,
+    "hu": "Mit tennél, ha soha többé nem kellene dolgoznod?",
+    "en": "What would you do if you never had to work again?",
+    "starters": [
+      "Ha soha többé nem kellene dolgoznom, akkor …",
+      "Az első dologom az lenne, hogy …",
+      "A legtöbb időmet … tölteném.",
+      "A legnagyobb álmom az, hogy …"
+    ]
+  },
+  {
+    "id": 94,
+    "hu": "Mit tennél, ha láthatatlan lennél?",
+    "en": "What would you do if you were invisible?",
+    "starters": [
+      "Ha láthatatlan lennék, először …",
+      "A legérdekesebb az lenne, hogy …",
+      "Biztosan kipróbálnám, hogy …",
+      "A legnagyobb előnye az lenne, hogy …"
+    ]
+  },
+  {
+    "id": 95,
+    "hu": "Mit szeretnél elérni a következő születésnapodig?",
+    "en": "What do you want to have achieved by your next birthday?",
+    "starters": [
+      "A következő születésnapomig szeretném elérni, hogy …",
+      "A legfontosabb célom az, hogy …",
+      "Addigra jó lenne, ha …",
+      "A legnagyobb álmom az, hogy …"
+    ]
+  },
+  {
+    "id": 96,
+    "hu": "Mik az élet legszebb dolgai?",
+    "en": "What are the most enjoyable things in life?",
+    "starters": [
+      "Az élet legszebb dolgai számomra …",
+      "A legnagyobb örömöt az adja, hogy …",
+      "Mindig boldoggá tesz, amikor …",
+      "Nagyon élvezem …"
+    ]
+  },
+  {
+    "id": 97,
+    "hu": "Mi volt az első munkád?",
+    "en": "What was your first job?",
+    "starters": [
+      "Az első munkám … volt.",
+      "Azért vállaltam el, mert …",
+      "Jobb lett volna, ha …",
+      "Itt tanultam meg, hogy …"
+    ]
+  },
+  {
+    "id": 98,
+    "hu": "Mi volt a kedvenc TV-műsorod, amikor kicsi voltál?",
+    "en": "What was your favourite TV show when you were little?",
+    "starters": [
+      "Gyerekkoromban a kedvenc műsorom … volt.",
+      "Azért szerettem, mert …",
+      "Mindig izgatottan vártam, hogy …",
+      "Felnőtt fejjel azt gondolom róla, hogy …"
+    ]
+  },
+  {
+    "id": 99,
+    "hu": "Mi motivál?",
+    "en": "What motivates you?",
+    "starters": [
+      "A legjobban az motivál, hogy …",
+      "Mindig erőt ad, amikor …",
+      "A céljaim közül a legfontosabb, hogy …",
+      "A legnagyobb inspiráció számomra …"
+    ]
+  },
+  {
+    "id": 100,
+    "hu": "Mi van mindig a hűtődben?",
+    "en": "What is always in your refrigerator?",
+    "starters": [
+      "A hűtőmben mindig van …",
+      "Azért tartok belőle otthon, mert …",
+      "A kedvenc ételemhez mindig szükségem van …",
+      "Ha kinyitom a hűtőt, biztosan találok benne …"
     ]
   }
 ]

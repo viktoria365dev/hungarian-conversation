@@ -181,29 +181,23 @@ byId("favBtn")?.addEventListener("click", (event) => {
   }
 });
 
-// Stop card click from firing when these controls are used
+// ===== Prevent card click from hijacking controls =====
 ["resetBtn", "nextBtn", "toggleStarters"].forEach((id) => {
-  const btn = byId(id);
-  if (btn) {
-    btn.addEventListener("click", (event) => {
+  const el = byId(id);
+  if (el) {
+    el.addEventListener("click", (event) => {
       event.stopPropagation();
     });
   }
 });
 
-// ===== Keyboard Shortcuts =====
-// Enter/Space = next, S = toggle starters
-document.addEventListener("keydown", (event) => {
-  if (event.key === "Enter" || event.key === " ") {
-    event.preventDefault();
-    nextQuestion();
-  }
-  if (event.key.toLowerCase() === "s") {
-    const toggle = byId("toggleStarters");
-    toggle.checked = !toggle.checked;
-    renderCurrent();
-  }
-});
+// Also stop bubbling when clicking the label for the toggle
+const toggleLabel = document.querySelector("label[for='toggleStarters']");
+if (toggleLabel) {
+  toggleLabel.addEventListener("click", (event) => {
+    event.stopPropagation();
+  });
+}
 
 // ===== Init =====
 if (byId("questionText")) {
