@@ -173,10 +173,21 @@ byId("toggleStarters")?.addEventListener("change", renderCurrent);
 byId("nextBtn")?.addEventListener("click", nextQuestion);
 byId("resetBtn")?.addEventListener("click", resetDeck);
 
-byId("favBtn")?.addEventListener("click", () => {
+byId("favBtn")?.addEventListener("click", (event) => {
+  event.stopPropagation(); // prevent card click handler from firing
   if (questions.length > 0) {
     const currentQuestion = questions[questionOrder[currentIndex]];
     addToFavourites(currentQuestion);
+  }
+});
+
+// Stop card click from firing when these controls are used
+["resetBtn", "nextBtn", "toggleStarters"].forEach((id) => {
+  const btn = byId(id);
+  if (btn) {
+    btn.addEventListener("click", (event) => {
+      event.stopPropagation();
+    });
   }
 });
 
