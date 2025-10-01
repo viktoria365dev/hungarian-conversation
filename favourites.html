@@ -55,13 +55,20 @@
           Hungarian<span>365</span> Favourites
         </h1>
 
-        <div id="favouritesList" class="row g-3">
-          <!-- Favourites will be injected here -->
-        </div>
+        <div
+          id="favouritesList"
+          class="row g-3"
+          role="list"
+          aria-label="Saved favourite questions"
+        ></div>
 
         <div class="text-center mt-4">
-          <button class="btn btn-outline-danger" id="clearFavs">
-            <i class="bi bi-trash"></i> Delete All
+          <button
+            class="btn btn-outline-danger"
+            id="clearFavs"
+            aria-label="Delete all favourites"
+          >
+            <i class="bi bi-trash" aria-hidden="true"></i> Delete All
           </button>
         </div>
       </div>
@@ -84,6 +91,7 @@
             href="https://www.instagram.com/hungarian365/"
             target="_blank"
             class="text-white fs-4"
+            aria-label="Hungarian365 on Instagram"
           >
             <i class="bi bi-instagram"></i>
           </a>
@@ -91,6 +99,7 @@
             href="https://www.youtube.com/@hungarian365"
             target="_blank"
             class="text-white fs-4"
+            aria-label="Hungarian365 on Youtube"
           >
             <i class="bi bi-youtube"></i>
           </a>
@@ -98,6 +107,7 @@
             href="https://www.facebook.com/hungarian365/"
             target="_blank"
             class="text-white fs-4"
+            aria-label="Hungarian365 on Facebook"
           >
             <i class="bi bi-facebook"></i>
           </a>

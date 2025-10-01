@@ -88,6 +88,14 @@ footer a:hover {
   display: none;
 }
 
+.question-card:focus {
+  outline: none;
+}
+.question-card:focus-visible {
+  outline: 3px solid var(--brand-green);
+  outline-offset: 4px;
+}
+
 /* ===== Starters List ===== */
 .starter-list {
   list-style: none;

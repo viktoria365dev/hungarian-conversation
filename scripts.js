@@ -129,6 +129,7 @@ if (byId("favouritesList")) {
     favourites.forEach((favouriteQuestion) => {
       const column = document.createElement("div");
       column.className = "col-12 col-md-6";
+      column.setAttribute("role", "listitem");
       column.innerHTML = `
   <div class="card h-100 shadow-sm">
     <div class="card-body">
@@ -179,9 +180,10 @@ byId("favBtn")?.addEventListener("click", () => {
   }
 });
 
-// keyboard shortcuts: Enter = next, S = toggle starters
+// ===== Keyboard Shortcuts =====
+// Enter/Space = next, S = toggle starters
 document.addEventListener("keydown", (event) => {
-  if (event.key === "Enter") {
+  if (event.key === "Enter" || event.key === " ") {
     event.preventDefault();
     nextQuestion();
   }
@@ -195,4 +197,22 @@ document.addEventListener("keydown", (event) => {
 // ===== Init =====
 if (byId("questionText")) {
   loadQuestions();
+}
+
+// ===== Card Click / Tap / Keyboard =====
+const questionCard = document.querySelector(".question-card");
+
+if (questionCard) {
+  // Mouse + touch (click covers both)
+  questionCard.addEventListener("click", () => {
+    nextQuestion();
+  });
+
+  // Keyboard support (Enter + Space)
+  questionCard.addEventListener("keydown", (event) => {
+    if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+      nextQuestion();
+    }
+  });
 }
