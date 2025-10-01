@@ -214,10 +214,15 @@ if (questionCard) {
   });
 
   // Keyboard support (Enter + Space)
-  questionCard.addEventListener("keydown", (event) => {
+  document.body.addEventListener("keydown", (event) => {
     if (event.key === "Enter" || event.key === " ") {
       event.preventDefault();
       nextQuestion();
+    }
+
+    if (event.key === "s") {
+      event.preventDefault();
+      toggleLabel.click();
     }
   });
 }
